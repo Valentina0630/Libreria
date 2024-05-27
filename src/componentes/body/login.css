@@ -1,0 +1,125 @@
+.bloque{
+    padding: 5% 15%;
+}
+.contenido{
+    background-color:  white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 8% 5%;
+    margin: auto;
+    align-items: center;
+    width: 70%;
+    height: 60%;
+}
+
+.contenido button{
+    margin: 40px 0px 0px;
+}
+.contenido h1{
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+.caja{
+    text-align: justify;
+    font-weight: bolder;
+    margin: 40px 15%;
+}
+
+.caja:nth-child(7){
+    grid-column: span 2;
+}
+.input-box{
+    width: 100%;
+    display: inline-flex;
+}
+#eyeIcon{
+    cursor: pointer;
+}
+.input-group-text{
+    width: 15%;
+    justify-content: center;
+}
+.registro{
+    background-color:  white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 8% 5%;
+    margin: auto;
+    align-items: center;
+    width: 90%;
+    height: 60%;
+    
+}
+.registro form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.registro .cajabtn{
+
+    grid-column: span 2;
+}
+.registro button{
+    height: 40px;
+    width: 150px;
+    margin: 20px 0px 0px;
+}
+.registro h1{
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+.registro form .caja{
+    margin: 40px ;
+}
+.form-check{
+    margin: 40px 0px 0px;
+    grid-column: span 2;
+}
+.text-center{
+    grid-column: span 2;
+}
+.boxInt{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cajabtn .btnL{
+    width: 60%;
+}
+#linea{
+    height: 0.9rem;
+}
+.icon{
+    height: 1.6rem;
+}
+.caja-botones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.custom-facebook-button {
+    width: 100% !important;
+    height: 40px !important;
+    padding: 10px !important; 
+    font-size: 13px !important;
+    font-weight: bold;
+    margin: 0px 10px !important;
+  }
+
+@media screen and (min-width:800px) {
+    .registro{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .input-group-text{
+        width: 35%;
+    }
+    .custom-facebook-button {
+        margin: 10px 10px !important;
+      }
+}
+
