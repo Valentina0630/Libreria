@@ -8,6 +8,7 @@ import VisibilityIcon from '@mui/icons-material/Visibility';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 
 const SignUp = () => {
+    let URL=process.env.REACT_APP_ENVIRONMENT
 
     const [showPassword, setShowPassword] = useState(false);
 
@@ -154,10 +155,17 @@ const SignUp = () => {
             return
         }
 
-        await fetch('http://localhost:3001/Sign-Up', {
+        // await fetch('http://localhost:3001/Sign-Up', {
+        //     method: 'POST',
+        //     headers: { "Content-Type": "application/json", "Accept": 'application/json' },
+        //     body: JSON.stringify(values)
+        // })
+        console.log("URL----->>",URL)
+        fetch(`${URL}/Sign-up`,{
             method: 'POST',
             headers: { "Content-Type": "application/json", "Accept": 'application/json' },
             body: JSON.stringify(values)
+        
         })
             .then(response => {
                 // console.log(response.status)
