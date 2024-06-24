@@ -35,8 +35,8 @@ export default function Cards({ libro }) {
                     <span className='fecha'>Fecha de Lanzamiento: <br /><TodayIcon />{libro.fechaLanzamiento}</span>
                 </div>
                 <div className='botones'>
-                    <button type="button" className="btn btn-outline-danger anexar" onClick={addToCart}><AddCircleOutlineIcon /></button>
-                    <button type="button" className="btn btn-danger C">COMPRAR AHORA</button>
+                    <button type="button" className="btn btn-outline-info anexar" onClick={addToCart}><AddCircleOutlineIcon /></button>
+                    <button type="button" className="btn btn-info C">COMPRAR AHORA</button>
                 </div>
             </div>
         </div>

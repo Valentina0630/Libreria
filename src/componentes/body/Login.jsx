@@ -123,7 +123,7 @@ const Login = () => {
                             </div>
                         </div>
                         <div className="cajabtn">
-                            <button type="submit" className="btn btn-danger btnL">Login</button>
+                            <button type="submit" className="btn btn-info btnL">Login</button>
                         </div>
                         <p className="text-center text-muted mt-3 mb-0">No tienes una cuenta? <Link to='/Sign-Up'><a href="#!" className="fw-bold text-danger"><u>Registrate</u></a></Link></p>
                         <div className='p-3'>
