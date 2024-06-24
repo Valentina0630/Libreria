@@ -66,8 +66,8 @@ const Header = () => {
                                     <Link to='/Autores'><li><a className="dropdown-item" onClick={()=>handleClickAutores("Sigman Mariano")}>Sigman Mariano</a></li></Link>
                                     <Link to='/Autores'><li><a className="dropdown-item" onClick={()=>handleClickAutores("Mario Mendoza")}>Mario Mendoza</a></li></Link>
                                     <Link to='/Autores'><li><a className="dropdown-item" onClick={()=>handleClickAutores("Rick Riordan")}>Rick Riordan</a></li></Link>
-                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={()=>handleClickAutores("Stephen Kin")}>Stephen Kin</a></li></Link>
-                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={()=>handleClickAutores("J.K. Rowlin")}>J.K. Rowlin</a></li></Link>
+                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={()=>handleClickAutores("Stephen King")}>Stephen King</a></li></Link>
+                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={()=>handleClickAutores("J.K. Rowling")}>J.K. Rowling</a></li></Link>
                                     <Link to='/Autores'><li><a className="dropdown-item" onClick={()=>handleClickAutores("Isabel Allende")}>Isabel Allende</a></li></Link>
                                 </ul>
                             </li>
@@ -79,18 +79,18 @@ const Header = () => {
                         <span>  </span>
                         <form className="d-flex" role="search">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button className="btn btn-info" type="submit">Search</button>
+                            <button className="btn btn-danger" type="submit">Search</button>
                         </form>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav nav2 me-auto mb-2 mb-lg-0 ">
                                 <Link to='/Sign-Up'>
                                     <li className="nav-item">
-                                        <a className="btn btn-info"><AssignmentIndIcon className='icono' />Sign Up</a>
+                                        <a className="btn btn-outline-danger"><AssignmentIndIcon className='icono' />Sign Up</a>
                                     </li>
                                 </Link>
                                 <Link to='/Login'>
                                     <li className="nav-item">
-                                        <a className="btn btn-info boton"><LoginIcon className='icono' />Login</a>
+                                        <a className="btn btn-danger boton"><LoginIcon className='icono' />Login</a>
                                     </li>
                                 </Link>
                             </ul>

@@ -41,7 +41,7 @@ export default [
         description: "Cien años de soledad se ha convertido en la novela más emblemática de la literatura latinoamericana.",
         categoria: "Ficción",
         image: cienAños,
-        precio: "$1000"
+        precio: 1000
     },
 
     {
@@ -52,7 +52,7 @@ export default [
         description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",
         categoria: "Ciencia Ficción",
         image: cosmos,
-        precio: "$25000"
+        precio: 25000
     },
 
     {
@@ -63,7 +63,7 @@ export default [
         description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",
         categoria: "Drama",
         image: coronel,
-        precio: "$25000"
+        precio: 25000
     },
 
     {
@@ -74,7 +74,7 @@ export default [
         description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",
         categoria: "Romance",
         image: colera,
-        precio: "$25000"
+        precio: 25000
     },
 
     {
@@ -85,7 +85,7 @@ export default [
         description: "En este volumen, los oyentes encontrarán los primeros relatos que García Márquez publicó en Ojos de perro azul, entre ellos, Monólogo de Isabel viendo llover en Macondo.",
         categoria: "Ficción",
         image: cuentos,
-        precio: "$25000"
+        precio: 25000
     },
 
     {
@@ -96,7 +96,7 @@ export default [
         description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",
         categoria: "Ciencia Ficción",
         image: contacto,
-        precio: "$25000"
+        precio: 25000
     },
 
    {
@@ -107,7 +107,7 @@ export default [
         description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",
         categoria: "No Ficción",
         image: cerebroBroca,
-        precio: "$25000"
+        precio: 25000
     },
 
     {
@@ -118,18 +118,18 @@ export default [
         description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",
         categoria: "Clásicos",
         image: miserables,
-        precio: "$25000"
+        precio: 25000
     },
 
     {
         id: 9,
         title: "Los cuatro acuerdos",
-        autor: " Don Miguel Ruiz",
+        autor: "Don Miguel Ruiz",
         fechaLanzamiento: "05-07-1997",
         description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",
         categoria: "No Ficción",
         image: cuatroAcuerdos,
-        precio: "$25000"
+        precio: 25000
     },
 
     {
@@ -140,7 +140,7 @@ export default [
         description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",
         categoria: "No Ficción",
         image: logicaMentira,
-        precio: "$25000"
+        precio: 25000
     },
 
     {
@@ -151,7 +151,7 @@ export default [
         description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",
         categoria: "No Ficción",
         image: diccionarioAjedrez,
-        precio: "$25000"
+        precio: 25000
     },
 
     {
@@ -162,18 +162,18 @@ export default [
         description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",
         categoria: "No Ficción",
         image: poderPalabras,
-        precio: "$25000"
+        precio: 25000
     },
 
     {
         id: 13,
         title: "Cosas que los nietos deberían saber",
-        autor: " Mark Oliver Everett",
+        autor: "Mark Oliver Everett",
         fechaLanzamiento: "20-11-2007",
         description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",
         categoria: "No Ficción",
         image: nietos,
-        precio: "$25000"
+        precio: 25000
     },
 
     {
@@ -184,7 +184,7 @@ export default [
         description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",
         categoria: "Ficción",
         image: almendra,
-        precio: "$25000"
+        precio: 25000
     },
 
     {
@@ -195,7 +195,7 @@ export default [
         description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",
         categoria: "Romance",
         image: todoLoQueNunca,
-        precio: "$48300"
+        precio: 48300
     },
 
     {
@@ -206,7 +206,7 @@ export default [
         description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",
         categoria: "Misterio",
         image: satanas,
-        precio: "$46000"
+        precio: 46000
     },
     {
         id: 17,
@@ -216,7 +216,7 @@ export default [
         description: "Una historia oscura y llena de misterio que te atrapará desde la primera página.",
         categoria: "Misterio",
         image: ciudadUmbrales,
-        precio: "$15000"
+        precio: 15000
     },
     {
         id: 18,
@@ -226,7 +226,7 @@ export default [
         description: "La primera entrega de la emocionante serie de aventuras sobre Percy Jackson, un semidiós con una misión épica.",
         categoria: "Fantasía",
         image: percyJackson,
-        precio: "$18000"
+        precio: 18000
     },
     {
         id: 19,
@@ -236,7 +236,7 @@ export default [
         description: "Una obra maestra del terror psicológico que te dejará sin aliento.",
         categoria: "Terror",
         image: carrie,
-        precio: "$20000"
+        precio: 20000
     },
     {
         id: 20,
@@ -246,7 +246,7 @@ export default [
         description: "La primera entrega de la famosa serie de Harry Potter, donde un joven mago descubre un mundo de magia, aventuras y amistad en la Escuela de Magia y Hechicería de Hogwarts.",
         categoria: "Fantasía",
         image: harryPotter,
-        precio: "$20000"
+        precio: 20000
     },
     {
         id: 21,
@@ -256,7 +256,7 @@ export default [
         description: "Una novela que narra la historia de un asesinato anunciado en un pequeño pueblo latinoamericano, explorando temas de honor, destino y tragedia.",
         categoria: "Ficción",
         image: cronicaMuerte,
-        precio: "$20000"
+        precio: 20000
     },
     {
         id: 22,
@@ -266,7 +266,7 @@ export default [
         description: "Un aterrador relato sobre un grupo de amigos que se enfrentan a un mal antiguo en su ciudad natal.",
         categoria: "Terror",
         image: it,
-        precio: "$22000"
+        precio: 22000
     },
     {
         id: 23,
@@ -276,7 +276,7 @@ export default [
         description: "Una saga familiar que abarca varias generaciones, llena de amor, tragedia, magia y un toque de realismo mágico que te cautivará desde la primera página.",
         categoria: "Ficción",
         image: casaEspiritus,
-        precio: "$16000"
+        precio: 16000
     },
     {
         id: 24,
@@ -286,7 +286,7 @@ export default [
         description: "Un clásico atemporal que nos enseña importantes lecciones sobre la vida y la amistad.",
         categoria: "Fábula",
         image: principito,
-        precio: "$12000"
+        precio: 12000
     },
     {
         id: 25,
@@ -296,7 +296,7 @@ export default [
         description: "Una emocionante novela que nos lleva a través de la Europa convulsa de la Segunda Guerra Mundial y la España franquista, a través de los ojos de una joven costurera con un destino extraordinario.",
         categoria: "Histórica",
         image: tiempoCosturas,
-        precio: "$22000"
+        precio: 22000
     },
     {
         id: 26,
@@ -306,7 +306,7 @@ export default [
         description: "Una novela misteriosa y evocadora que te llevará a través de las calles de Barcelona y te sumergirá en un mundo de secretos y libros olvidados.",
         categoria: "Misterio",
         image: sombraViento,
-        precio: "$20000"
+        precio: 20000
     },
     {
         id: 27,
@@ -316,7 +316,7 @@ export default [
         description: "Un thriller trepidante lleno de misterios, simbología y conspiraciones que mantendrá tu atención hasta la última página.",
         categoria: "Misterio",
         image: codigoDaVinci,
-        precio: "$22000"
+        precio: 22000
     },
     {
         id: 28,
@@ -326,7 +326,7 @@ export default [
         description: "Una de las novelas románticas más queridas de todos los tiempos, llena de intriga, humor y una historia de amor atemporal.",
         categoria: "Romance",
         image: orgulloPrejuicio,
-        precio: "$18000"
+        precio: 18000
     },
     {
         id: 29,
@@ -336,7 +336,7 @@ export default [
         description: "Un clásico distópico que ofrece una visión sombría de un futuro totalitario y opresivo que aún resuena en la actualidad.",
         categoria: "Ficción",
         image: milAlgo,
-        precio: "$21000"
+        precio: 21000
     },
     {
         id: 30,
@@ -346,7 +346,7 @@ export default [
         description: "Una historia conmovedora y poderosa sobre una niña durante la Segunda Guerra Mundial y su relación con los libros y la libertad.",
         categoria: "Drama",
         image: ladronaLibros,
-        precio: "$19000"
+        precio: 19000
     },
     {
         id: 31,
@@ -356,7 +356,7 @@ export default [
         description: "Una novela desgarradora que sigue la amistad improbable entre dos niños durante el Holocausto.",
         categoria: "Drama",
         image: niñoPijamaRayas,
-        precio: "$21000"
+        precio: 21000
     },
     {
         id: 32,
@@ -366,7 +366,7 @@ export default [
         description: "Un thriller psicológico adictivo que te mantendrá en vilo hasta el final mientras descubres los oscuros secretos de sus personajes.",
         categoria: "Misterio",
         image: chicaTren,
-        precio: "$22000"
+        precio: 22000
     },
     {
         id: 33,
@@ -376,6 +376,6 @@ export default [
         description: "Una épica historia de amor, intriga y poder ambientada en la Inglaterra medieval, donde la construcción de una catedral es el telón de fondo para las vidas de sus personajes.",
         categoria: "Histórica",
         image: pilaresTierra,
-        precio: "$25000"
+        precio: 25000
     }
 ]

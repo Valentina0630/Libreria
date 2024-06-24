@@ -42,7 +42,7 @@ function CarritoElements() {
         setLibrosDelCarrito((actualeslibs) => {
             return actualeslibs.map((libs) => {
                 const valor = document.getElementById(libs.id)?.value || libs.cantidad;
-                return { ...libs, precioCarrito: libs.precio * valor, cantidad: valor };
+                return { ...libs, precioCarrito: libs.precio*valor, cantidad: valor };
             });
         });
     };

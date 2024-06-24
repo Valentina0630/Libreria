@@ -8,8 +8,8 @@ import VisibilityIcon from '@mui/icons-material/Visibility';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 
 const SignUp = () => {
-    let URL=process.env.REACT_APP_ENVIRONMENT
-
+    let URL = import.meta.env.VITE_APP_ENVIRONMENT;
+    console.log("URL====>", URL);
     const [showPassword, setShowPassword] = useState(false);
 
     const togglePasswordVisibility = () => {
@@ -160,12 +160,11 @@ const SignUp = () => {
         //     headers: { "Content-Type": "application/json", "Accept": 'application/json' },
         //     body: JSON.stringify(values)
         // })
-        console.log("URL----->>",URL)
-        fetch(`${URL}/Sign-up`,{
+        console.log("URL====> ", URL)
+        fetch(`${URL}/Sign-Up`,{
             method: 'POST',
             headers: { "Content-Type": "application/json", "Accept": 'application/json' },
             body: JSON.stringify(values)
-        
         })
             .then(response => {
                 // console.log(response.status)
@@ -283,7 +282,7 @@ const SignUp = () => {
                             </label>
                         </div>
                         <div className="cajabtn">
-                            <button type="submit" className="btn btn-info">Registrar</button>
+                            <button type="submit" className="btn btn-danger">Registrar</button>
                         </div>
                         <p className="text-center text-muted mt-5 mb-0">Tienes una cuenta? <Link to='/login'><a href="#!" className="fw-bold text-danger"><u>Login here</u></a></Link></p>
                     </form>
