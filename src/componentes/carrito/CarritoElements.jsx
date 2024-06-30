@@ -88,7 +88,7 @@ function CarritoElements() {
                                             <h5 className="mb-0">$ {formatoNumero(libs.precioCarrito)}</h5>
                                         </div>
                                         <div className="col-md-1 col-lg-1 col-xl-1 text-end">
-                                            <button className="btn btn-danger" id={libs.id} onClick={eliminarLibroDelCarrito}>
+                                            <button className="btn btn-info" id={libs.id} onClick={eliminarLibroDelCarrito}>
                                                 <DeleteIcon />
                                             </button>
                                         </div>

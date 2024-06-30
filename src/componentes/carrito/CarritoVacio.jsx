@@ -14,7 +14,7 @@ export default function CarritoVacio() {
                 <img className="imgCarrito" src="carrito.jpg" alt='carrito-vacio'/>
                 <h3><strong>Tu carrito esta vacio</strong></h3>
                 <h4>Agrega algo que te haga feliz 😃</h4>
-                <Link to="/Sesion" className="btn btn-danger cart-btn-transform m-3" data-abc="true">Continuar comprando</Link>
+                <Link to="/Sesion" className="btn btn-info cart-btn-transform m-3" data-abc="true">Continuar comprando</Link>
               </div>
             </div>
           </div>

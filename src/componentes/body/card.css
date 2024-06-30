@@ -3,16 +3,16 @@
     margin-bottom: 60px;
 }
 .active{
-    background-color: rgb(53, 244, 234) !important;
+    background-color: rgb(53, 238, 244) !important;
     color: white !important;
     font-weight: bolder;
 }
 .page-link{
-  color: rgb(53, 244, 234);
+  color: rgb(53, 238, 244);
 }
 .page-link:hover{
-    background-color: rgb(53, 244, 234);
-    border: solid 1px rgb(53, 244, 234) !important;
+    background-color: rgb(53, 238, 244);
+    border: solid 1px rgb(53, 238, 244) !important;
     color: white;
 }
 .divCards{

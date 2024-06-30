@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import './header.css';
 import Logo from '/logo.png';
 import HomeIcon from '@mui/icons-material/Home';
@@ -8,15 +8,19 @@ import AssignmentIndIcon from '@mui/icons-material/AssignmentInd';
 import LoginIcon from '@mui/icons-material/Login';
 import PersonIcon from '@mui/icons-material/Person';
 import { Link } from 'react-router-dom';
+import { DataContext } from '../context/DataContext';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 const Header = () => {
+    const {librosDelCarrito, setLibrosDelCarrito } = useContext(DataContext);
+
     const handleClickCategoria = (categoria) => {
-        window.location.reload(); 
-        localStorage.setItem('categoriaSeleccionada', categoria); 
+        window.location.reload();
+        localStorage.setItem('categoriaSeleccionada', categoria);
     };
     const handleClickAutores = (autor) => {
-        window.location.reload(); 
-        localStorage.setItem('autorSeleccionada', autor); 
+        window.location.reload();
+        localStorage.setItem('autorSeleccionada', autor);
     };
     return (
         <div className='contenedor'>
@@ -54,21 +58,21 @@ const Header = () => {
                             <li className="nav-item dropdown">
                                 <a className="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false"><PersonIcon className='icono' />Autores</a>
                                 <ul className="dropdown-menu">
-                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={()=>handleClickAutores("Alice Kellen")}>Alice Kellen</a></li></Link>
-                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={()=>handleClickAutores("Carl Sagan")}>Carl Sagan</a></li></Link> 
-                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={()=>handleClickAutores("Gabriel García Márquez")}>Gabriel García M.</a></li></Link>
-                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={()=>handleClickAutores("Mark Oliver Everett")}>Mark Oliver Everett</a></li></Link>
-                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={()=>handleClickAutores("Won-pyung Sohn")}>Won-pyung Sohn</a></li></Link>
-                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={()=>handleClickAutores("Natanael Méndez Matos")}>Natanael Méndez M.</a></li></Link>
-                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={()=>handleClickAutores("Victor Hugo")}>Victor Hugo</a></li></Link>
-                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={()=>handleClickAutores("Don Miguel Ruiz")}>Don Miguel Ruiz</a></li></Link>
-                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={()=>handleClickAutores("Antonio Gude")}>Antonio Gude</a></li></Link>
-                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={()=>handleClickAutores("Sigman Mariano")}>Sigman Mariano</a></li></Link>
-                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={()=>handleClickAutores("Mario Mendoza")}>Mario Mendoza</a></li></Link>
-                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={()=>handleClickAutores("Rick Riordan")}>Rick Riordan</a></li></Link>
-                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={()=>handleClickAutores("Stephen King")}>Stephen King</a></li></Link>
-                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={()=>handleClickAutores("J.K. Rowling")}>J.K. Rowling</a></li></Link>
-                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={()=>handleClickAutores("Isabel Allende")}>Isabel Allende</a></li></Link>
+                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={() => handleClickAutores("Alice Kellen")}>Alice Kellen</a></li></Link>
+                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={() => handleClickAutores("Carl Sagan")}>Carl Sagan</a></li></Link>
+                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={() => handleClickAutores("Gabriel García Márquez")}>Gabriel García M.</a></li></Link>
+                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={() => handleClickAutores("Mark Oliver Everett")}>Mark Oliver Everett</a></li></Link>
+                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={() => handleClickAutores("Won-pyung Sohn")}>Won-pyung Sohn</a></li></Link>
+                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={() => handleClickAutores("Natanael Méndez Matos")}>Natanael Méndez M.</a></li></Link>
+                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={() => handleClickAutores("Victor Hugo")}>Victor Hugo</a></li></Link>
+                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={() => handleClickAutores("Don Miguel Ruiz")}>Don Miguel Ruiz</a></li></Link>
+                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={() => handleClickAutores("Antonio Gude")}>Antonio Gude</a></li></Link>
+                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={() => handleClickAutores("Sigman Mariano")}>Sigman Mariano</a></li></Link>
+                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={() => handleClickAutores("Mario Mendoza")}>Mario Mendoza</a></li></Link>
+                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={() => handleClickAutores("Rick Riordan")}>Rick Riordan</a></li></Link>
+                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={() => handleClickAutores("Stephen King")}>Stephen King</a></li></Link>
+                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={() => handleClickAutores("J.K. Rowling")}>J.K. Rowling</a></li></Link>
+                                    <Link to='/Autores'><li><a className="dropdown-item" onClick={() => handleClickAutores("Isabel Allende")}>Isabel Allende</a></li></Link>
                                 </ul>
                             </li>
                             <li className="nav-item">
@@ -82,6 +86,9 @@ const Header = () => {
                             <button className="btn btn-info" type="submit">Search</button>
                         </form>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                            <li className="nav-item">
+                                <Link to='/carrito' className="nav-link" ><ShoppingCartOutlinedIcon sx={{ fontSize: 35 }} />{librosDelCarrito.lenght}</Link>
+                            </li>
                             <ul className="navbar-nav nav2 me-auto mb-2 mb-lg-0 ">
                                 <Link to='/Sign-Up'>
                                     <li className="nav-item">

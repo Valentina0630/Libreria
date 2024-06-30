@@ -69,7 +69,7 @@ export default function CarritoContents() {
                     <div className="row d-flex justify-content-center align-items-center h-100">
                         <div className="col-10">
                             <div className="row d-flex justify-content-between align-items-center">
-                                <button type="button" className="btn btn-danger btn-block btn-lg ">Pagar</button>
+                                <button type="button" className="btn btn-info btn-block btn-lg ">Pagar</button>
                             </div>
                         </div>
                     </div>

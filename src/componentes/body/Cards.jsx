@@ -36,11 +36,9 @@ export default function Cards({ libro }) {
                 </div>
                 <div className='botones'>
                     <button type="button" className="btn btn-outline-info anexar" onClick={addToCart}><AddCircleOutlineIcon /></button>
-                    <button type="button" className="btn btn-info C">COMPRAR AHORA</button>
+                    <button type="button" className="btn btn-outline-info C">COMPRAR AHORA</button>
                 </div>
             </div>
         </div>
     );
 }
-
-
