@@ -40,7 +40,7 @@ export default function CarritoContents() {
                     <div className="col-10">
                         <div className="d-flex justify-content-between align-items-center mb-4">
                             <h3 className="fw-normal mb-0 text-black">Carrito de compra</h3>
-                            <button type="button" class="btn btn-danger btn-lg" onClick={vaciarCarrito}>Vaciar carrito  <i class="bi bi-cart-x"></i></button>
+                            <button type="button" class="btn btn-info btn-lg" onClick={vaciarCarrito}>Vaciar carrito  <i class="bi bi-cart-x"></i></button>
                             <div>
                                 <Link to='/Sesion' ><h4 className="mb-0"><span className="text-muted">Seguir comprando</span></h4></Link>
                             </div>
@@ -69,7 +69,7 @@ export default function CarritoContents() {
                     <div className="row d-flex justify-content-center align-items-center h-100">
                         <div className="col-10">
                             <div className="row d-flex justify-content-between align-items-center">
-                                <button type="button" className="btn btn-danger btn-block btn-lg ">Pagar</button>
+                                <button type="button" className="btn btn-info btn-block btn-lg ">Pagar</button>
                             </div>
                         </div>
                     </div>
