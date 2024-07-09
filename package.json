@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "start": "env-cmd -f .development.env react-scripts start",
-    "build": "env-cmd -f .production.env react-scripts build",
+    "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
